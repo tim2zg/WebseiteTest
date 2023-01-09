@@ -40,3 +40,9 @@ h1 {
     margin-bottom: 0;
 }
 
+.line:hover {
+    background: rgb(255,0,170);
+    background: linear-gradient(90deg, rgba(255,0,170,1) 0%, rgba(255,203,0,1) 100%);
+    cursor: pointer;
+    outline: 5px whitesmoke solid;
+}
