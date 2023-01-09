@@ -15,7 +15,7 @@ p {
 
 h1 {
     color: white;
-    font-family: "Copperplate Gothic Bold", sans-serif;
+    font-family: Dubai, sans-serif;
     font-size: clamp(2rem, 8vw, 50px);
     text-decoration: underline;
     margin-bottom: 10vh;
