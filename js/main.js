@@ -11,3 +11,11 @@ const splitWords = id  => { // Yes I know could be done on the server side, but 
         element.appendChild(span);
     });
 }
+let bonk = false
+function bonkTimer() {
+    if (bonk) {
+        let audio = new Audio('/assets/Bonkt.mp3')
+        audio.play()
+    }
+}
+

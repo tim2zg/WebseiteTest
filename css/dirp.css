@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+@keyframes animationlol {
+    0% {
+        color: deeppink;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: greenyellow;
+    }
+    75% {
+        color: deepskyblue;
+    }
+    100% {
+        color: red;
+    }
+}
+
+p {
+    color: white;
+    font-size:  clamp(1px, 8vw, 40px);
+    font-family: "Bauhaus 93", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-family: Harrington, sans-serif;
+    font-size: clamp(2rem, 8vw, 50px);
+    margin-bottom: 10vh;
+}
+
+#rows:hover .line:not(:hover) {
+    opacity: 0.2;
+}
+
+#mainPage {
+    align-content: center;
+    margin-bottom: 10vh;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    color: wheat;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.line:hover p {
+    animation-name: animationlol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.line:hover {
+    cursor: pointer;
+    outline-offset: 5px;
+    outline: 3px wheat double;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#dud {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+#dud img {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    height: 25vh;
+}
