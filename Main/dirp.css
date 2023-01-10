@@ -8,16 +8,15 @@ body {
 
 p {
     color: white;
-    font-size:  clamp(1px, 8vw, 30px);
+    font-size:  clamp(1px, 8vw, 40px);
     font-family: "Bauhaus 93", sans-serif;
     margin: 0;
 }
 
 h1 {
     color: white;
-    font-family: Dubai, sans-serif;
+    font-family: Harrington, sans-serif;
     font-size: clamp(2rem, 8vw, 50px);
-    text-decoration: underline;
     margin-bottom: 10vh;
 }
 
@@ -41,8 +40,9 @@ h1 {
 }
 
 .line:hover {
-    background: rgb(255,0,170);
-    background: linear-gradient(90deg, rgba(255,0,170,1) 0%, rgba(255,203,0,1) 100%);
     cursor: pointer;
-    outline: 5px whitesmoke solid;
+    outline: 3px whitesmoke double;
+    background: -webkit-linear-gradient(left, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
