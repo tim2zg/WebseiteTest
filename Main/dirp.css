@@ -6,6 +6,13 @@ body {
     place-items: center;
 }
 
+@keyframes animationlol {
+    from {background: -webkit-linear-gradient(right, red, springgreen); -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+    to {background: -webkit-linear-gradient(left, red, springgreen); -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+}
+
 p {
     color: white;
     font-size:  clamp(1px, 8vw, 40px);
@@ -41,8 +48,10 @@ h1 {
 
 .line:hover {
     cursor: pointer;
-    outline: 3px whitesmoke double;
-    background: -webkit-linear-gradient(left, red, yellow);
+    outline: 3px yellow dotted;
+    background: -webkit-linear-gradient(right, red, springgreen);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation-name: animationlol;
+    animation-duration: 4s;
 }
