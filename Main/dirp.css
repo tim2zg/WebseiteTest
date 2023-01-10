@@ -69,8 +69,8 @@ h1 {
 
 .line:hover {
     cursor: pointer;
-    outline: 3px yellow dotted;
+    outline: 3px wheat dotted;
     animation-name: animationlol;
-    animation-duration: 4s;
+    animation-duration: 0.8s;
     animation-iteration-count: infinite;
 }
