@@ -7,10 +7,31 @@ body {
 }
 
 @keyframes animationlol {
-    from {background: -webkit-linear-gradient(right, red, springgreen); -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;}
-    to {background: -webkit-linear-gradient(left, red, springgreen); -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;}
+    0% {
+        background: -webkit-linear-gradient(right, red, deeppink);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    25% {
+        background: -webkit-linear-gradient(right, deeppink, yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background: -webkit-linear-gradient(right, yellow, greenyellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% {
+        background: -webkit-linear-gradient(right, greenyellow, deepskyblue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background: -webkit-linear-gradient(right, deepskyblue, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 p {
@@ -49,9 +70,7 @@ h1 {
 .line:hover {
     cursor: pointer;
     outline: 3px yellow dotted;
-    background: -webkit-linear-gradient(right, red, springgreen);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     animation-name: animationlol;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
