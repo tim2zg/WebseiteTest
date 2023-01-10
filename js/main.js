@@ -1,36 +1,13 @@
-const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-
-const enhance = id => {
+const splitWords = id  => { // Yes I know could be done on the server side, but im to lazy to write it all down .-.
     const element = document.getElementById(id),
-        text = element.innerText.split("");
+        text = element.innerText.split(" ");
 
     element.innerText = "";
 
-    text.forEach((value, index) => {
-        const outer = document.createElement("span");
-
-        outer.className = "outer";
-
-        const inner = document.createElement("span");
-
-        inner.className = "inner";
-
-        inner.style.animationDelay = `${rand(-5000, 0)}ms`;
-
-        const letter = document.createElement("span");
-
-        letter.className = "letter";
-
-        letter.innerText = value;
-
-        letter.style.animationDelay = `${index * 1000 }ms`;
-
-        inner.appendChild(letter);
-
-        outer.appendChild(inner);
-
-        element.appendChild(outer);
+    text.forEach(letter => {
+        const span = document.createElement("span");
+        span.innerText = letter;
+        span.className = "letter";
+        element.appendChild(span);
     });
 }
-
-enhance("channel-link");
