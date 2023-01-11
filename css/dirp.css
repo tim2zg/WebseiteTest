@@ -96,3 +96,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+h6 {
+    color: white;
+    font-family: "Dubai", sans-serif;
+    font-size:  clamp(1px, 8vw, 15px);
+    margin-left: 20px;
+}
