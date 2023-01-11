@@ -106,5 +106,5 @@ h6 {
 
 .letter:nth-child(1) {
     color: red;
-    transform: translate(-80%, 60%) rotate(8deg);
+    transform: translate(-80%, 60%) rotate(100deg);
 }
