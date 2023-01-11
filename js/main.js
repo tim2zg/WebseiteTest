@@ -4,7 +4,7 @@ const splitWords = id  => { // Yes I know could be done on the server side, but 
         const element = elements[i]
         const text = element.innerText
         const words = text.split('')
-        element.innerHTML = words.map(word => `<span class="oneLetter" >${word}</span>`).join(' ')
+        element.innerHTML = words.map(word => `<span class="letter">${word}</span>`).join(' ')
     }
 
 }

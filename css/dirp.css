@@ -103,3 +103,8 @@ h6 {
     font-size:  clamp(1px, 8vw, 15px);
     margin-left: 20px;
 }
+
+.letter:nth-child(1) {
+    color: red;
+    transform: translate(-80%, 60%) rotate(8deg);
+}
