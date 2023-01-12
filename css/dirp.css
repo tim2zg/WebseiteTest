@@ -157,3 +157,18 @@ h6 {
 #dud:hover h6 {
     transform: scale(1.1);
 }
+
+#dud:hover {
+    cursor: pointer;
+}
+
+#footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 2vh;
+    background-color: black;
+    display: flex;
+    font-size: 10px;
+    font-family: Dubai, sans-serif;
+}
