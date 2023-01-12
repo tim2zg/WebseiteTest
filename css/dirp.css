@@ -110,7 +110,42 @@ h6 {
     margin-left: 20px;
 }
 
-.letter:nth-child(1) {
-    color: red;
-    transform: translate(-80%, 60%) rotate(100deg);
+.line:hover span:nth-child(1) {
+    transform: translate(0%, 8%) rotate(-8deg);
+}
+
+.line:hover span:nth-child(2) {
+    transform: translate(0%, -20%) rotate(5deg);
+}
+
+.line:hover span:nth-child(3) {
+    transform: translate(0%, 20%) rotate(-3deg);
+}
+
+.line:hover span:nth-child(4) {
+    transform: translate(0%, -10%) rotate(2deg);
+}
+
+.line:hover span:nth-child(5) {
+    transform: translate(0%, 10%) rotate(8deg);
+}
+
+.line:hover span:nth-child(6) {
+    transform: translate(0%, -5%) rotate(-5deg);
+}
+
+.line:hover span:nth-child(7) {
+    transform: translate(0%, 12%) rotate(3deg);
+}
+
+.line:hover span:nth-child(8) {
+    transform: translate(0%, -8%) rotate(-2deg);
+}
+
+.line:hover span:nth-child(9) {
+    transform: translate(0%, 5%) rotate(5deg);
+}
+
+.line:hover span:nth-child(10) {
+    transform: translate(0%, -12%) rotate(-3deg);
 }
