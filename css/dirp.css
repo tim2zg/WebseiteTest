@@ -149,3 +149,11 @@ h6 {
 .line:hover span:nth-child(10) {
     transform: translate(0%, -12%) rotate(-3deg);
 }
+
+#dud:hover img {
+    transform: scale(1.1);
+}
+
+#dud:hover h6 {
+    transform: scale(1.1);
+}
