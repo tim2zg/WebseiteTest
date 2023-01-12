@@ -174,14 +174,17 @@ h6 {
 }
 
 #infoBoxLeft {
+    display: none;
     position: absolute;
     left: 20vh;
     bottom: 20vh;
     height: 100px;
     width: 100px;
     border: wheat 3px dotted;
-    background-color: black;
-    display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+#infoBoxLeft p {
+    font-size: 10px;
 }
