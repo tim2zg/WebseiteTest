@@ -174,7 +174,11 @@ h6 {
 }
 
 #infoBoxLeft {
-    left: 0;
+    position: absolute;
+    left: 20vh;
+    bottom: 20vh;
+    height: 100px;
+    width: 100px;
     border: yellow 1px solid;
     background-color: black;
     display: flex;
