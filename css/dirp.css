@@ -179,7 +179,7 @@ h6 {
     bottom: 20vh;
     height: 100px;
     width: 100px;
-    border: yellow 1px solid;
+    border: wheat 3px dotted;
     background-color: black;
     display: flex;
     justify-content: flex-start;
