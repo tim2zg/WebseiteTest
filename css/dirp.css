@@ -176,10 +176,10 @@ h6 {
 #infoBoxLeft {
     display: none;
     position: absolute;
-    left: 20vh;
+    left: 5vh;
     bottom: 20vh;
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 400px;
     border: wheat 3px dotted;
     justify-content: flex-start;
     align-items: center;

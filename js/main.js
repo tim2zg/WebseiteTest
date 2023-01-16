@@ -5,3 +5,4 @@ function bonkTimer() {
         audio.play()
     }
 }
+
