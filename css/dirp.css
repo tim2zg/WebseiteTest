@@ -188,3 +188,15 @@ h6 {
 #infoBoxLeft p {
     font-size: 10px;
 }
+
+.sideBarBox {
+    width: 20%;
+    height: 10%;
+    display: none;
+    position: absolute;
+    left: 5vh;
+    bottom: 20vh;
+    border: wheat 3px dotted;
+    justify-content: flex-start;
+    align-items: center;
+}
