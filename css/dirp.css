@@ -189,14 +189,44 @@ h6 {
     font-size: 10px;
 }
 
-.sideBarBox {
-    width: 20%;
-    height: 10%;
-    display: none;
+#box1 {
+    width: 30%;
+    height: 40%;
     position: absolute;
     left: 5vh;
-    bottom: 20vh;
+    bottom: 5vh;
     border: wheat 3px dotted;
     justify-content: flex-start;
     align-items: center;
+}
+
+#box2 {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: 5vh;
+    top: 5vh;
+    border: wheat 3px dotted;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#box3 {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 5vh;
+    top: 5vh;
+    border: wheat 3px dotted;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#title:hover {
+    outline: wheat 3px double;
+    outline-offset: 5px;
+}
+
+.boxes {
+    display: none;
 }
