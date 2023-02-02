@@ -7,7 +7,8 @@ function bonkTimer() {
     }
 }
 
-const enhance = id => {
+function enhance(id) {
+    console.log("adfasdföasljdfalsd")
     console.log("Hallo")
     // Split the word into letters
     const word = document.getElementById(id);
@@ -23,7 +24,6 @@ const enhance = id => {
         word.appendChild(span);
     });
 }
-
 function toggleCollection() {
     boxes = !boxes
     if (boxes) {
