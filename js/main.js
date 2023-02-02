@@ -7,6 +7,23 @@ function bonkTimer() {
     }
 }
 
+const enhance = id => {
+    console.log("Hallo")
+    // Split the word into letters
+    const word = document.getElementById(id);
+    console.log(word.innerText)
+    const letters = word.innerText.split("");
+    // Clear the word
+    word.innerText = "";
+    // Add each letter as a span
+    letters.forEach(letter => {
+        const span = document.createElement("span");
+        span.innerText = letter;
+        span.className = "letter";
+        word.appendChild(span);
+    });
+}
+
 function toggleCollection() {
     boxes = !boxes
     if (boxes) {
