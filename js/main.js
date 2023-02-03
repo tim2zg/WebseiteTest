@@ -8,11 +8,8 @@ function bonkTimer() {
 }
 
 function enhance(id) {
-    console.log("adfasdföasljdfalsd")
-    console.log("Hallo")
     // Split the word into letters
     const word = document.getElementById(id);
-    console.log(word.innerText)
     const letters = word.innerText.split("");
     // Clear the word
     word.innerText = "";
