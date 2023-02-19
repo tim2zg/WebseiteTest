@@ -88,7 +88,7 @@ h1 {
     bottom: 0;
 }
 
-#slide1 img {
+.slide-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -99,15 +99,15 @@ h1 {
     object-fit: cover;
 }
 
-#count {
+.count {
     position: absolute;
     top: 10px;
     left: 10px;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#caption {
+.caption {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -139,6 +139,47 @@ h1 {
 body {
     background-color: black;
     overflow: hidden;
+}
+
+.back {
+    position: absolute;
+    font-size: 30px;
+    right: 40px;
+    top: 5px;
+
+}
+
+.goOn {
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 5px;
+}
+
+.goOn, .back {
+    cursor: pointer;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.goOn:hover, .back:hover {
+    transform: scale(1.2);
+}
+
+#slide1 {
+    display: unset;
+}
+
+#slide2 {
+    display: none;
+}
+
+#slide3 {
+    display: none;
+}
+
+#slide4 {
+    display: none;
 }
 
 #dud {

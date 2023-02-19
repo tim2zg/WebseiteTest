@@ -1,5 +1,6 @@
 let bonk = false
 let boxes = false
+let currentSlide = 0
 function bonkTimer() {
     if (bonk) {
         let audio = new Audio('/assets/Bonkt.mp3')
@@ -40,4 +41,28 @@ function toggleCollection() {
         boxes[1].style.display = "none"
         boxes[2].style.display = "none"
     }
+}
+
+function nextSlide() {
+    currentSlide++
+    if (currentSlide > 4) {
+        currentSlide = 1
+    }
+    const slides = document.getElementsByClassName("slide")
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"
+    }
+    slides[currentSlide -1].style.display = "unset"
+}
+
+function previousSlide() {
+    currentSlide--
+    if (currentSlide < 1) {
+        currentSlide = 4
+    }
+    const slides = document.getElementsByClassName("slide")
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"
+    }
+    slides[currentSlide -1].style.display = "unset"
 }
