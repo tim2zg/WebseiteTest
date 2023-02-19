@@ -83,37 +83,30 @@ function loadFactFile() {
         });
 }
 
-function displayFact() {
+function animateText() { // animate by the way is a repopulated function
+    // Inspirited by https://codepen.io/Hyperplexed/pen/rNrJgrd
     // Get a random fact
-    // Display the fact
-    document.getElementById("fact").innerText = facts[Math.floor(Math.random() * facts.length)]
-}
+    let fact = facts[Math.floor(Math.random() * facts.length)];
 
-// On load
-window.onload = () => {
-    document.querySelector("#box3").onmouseover = event => { // Copied from https://codepen.io/Hyperplexed/pen/rNrJgrd
-        console.log("Hovered")
-        let iteration = 0;
+    let iteration = 0;
 
-        clearInterval(interval);
+    clearInterval(interval);
 
-        interval = setInterval(() => {
-            event.target.innerText = event.target.innerText
-                .split("")
-                .map((letter, index) => {
-                    if(index < iteration) {
-                        return event.target.dataset.value[index];
-                    }
-
-                    return letters[Math.floor(Math.random() * 26)]
-                })
-                .join("");
-
-            if(iteration >= event.target.dataset.value.length){
-                clearInterval(interval);
+    interval = setInterval(() => {
+        document.getElementById("fact").innerText = fact.split("").map((letter, index) => {
+            if(index < iteration) {
+                return fact[index];
+            } else {
+                return possibleLetters[Math.floor(Math.random() * 26)]
             }
+        }).join("");
 
-            iteration += 1 / 3;
-        }, 30);
-    }
+        if(iteration >= fact.length) {
+            clearInterval(interval);
+        }
+
+        iteration += 1 / 2;
+    }, 30);
+
+
 }

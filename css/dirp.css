@@ -190,13 +190,15 @@ body {
     font-family: "Bauhaus 93", sans-serif;
     font-size:  clamp(1px, 8vw, 50px);
     margin: 0;
+    overflow: hidden;
 }
 
 #fact {
     color: white;
     font-family: "Bauhaus 93", sans-serif;
-    font-size:  clamp(1px, 8vw, 45px);
+    font-size:  clamp(1px, 8vw, 40px);
     margin: 0;
+    overflow: hidden;
 }
 
 
@@ -351,6 +353,8 @@ h6 {
     right: 5vh;
     top: 5vh;
     border: wheat 4px double;
+    max-width: 30%;
+    max-height: 60%;
 }
 
 #title:hover {
