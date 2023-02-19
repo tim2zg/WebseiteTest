@@ -146,7 +146,6 @@ body {
     font-size: 30px;
     right: 40px;
     top: 5px;
-
 }
 
 .goOn {
@@ -180,6 +179,17 @@ body {
 
 #slide4 {
     display: none;
+}
+
+#box3 {
+    text-align: center;
+}
+
+#facts {
+    color: white;
+    font-family: "Bauhaus 93", sans-serif;
+    font-size:  clamp(1px, 8vw, 40px);
+    margin: 0;
 }
 
 #dud {
@@ -329,11 +339,10 @@ h6 {
     width: 30%;
     height: 60%;
     position: absolute;
+    text-align: center;
     right: 5vh;
     top: 5vh;
     border: wheat 4px double;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 #title:hover {
