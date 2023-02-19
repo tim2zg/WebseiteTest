@@ -326,6 +326,11 @@ h6 {
     cursor: pointer;
 }
 
+#box3:hover {
+    cursor: pointer;
+    animation: animation 0.5s ease-in-out infinite alternate;
+}
+
 #footer {
     position: sticky;
     bottom: 0;
