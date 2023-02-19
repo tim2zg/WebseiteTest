@@ -274,6 +274,46 @@ h6 {
     transform: translate(0%, -12%) rotate(-3deg);
 }
 
+.line:hover span:nth-child(11) {
+    transform: translate(0%, 8%) rotate(2deg);
+}
+
+.line:hover span:nth-child(12) {
+    transform: translate(0%, -10%) rotate(-8deg);
+}
+
+.line:hover span:nth-child(13) {
+    transform: translate(0%, 5%) rotate(5deg);
+}
+
+.line:hover span:nth-child(14) {
+    transform: translate(0%, -12%) rotate(-3deg);
+}
+
+.line:hover span:nth-child(15) {
+    transform: translate(0%, 8%) rotate(2deg);
+}
+
+.line:hover span:nth-child(16) {
+    transform: translate(0%, -10%) rotate(-8deg);
+}
+
+.line:hover span:nth-child(17) {
+    transform: translate(0%, 5%) rotate(5deg);
+}
+
+.line:hover span:nth-child(18) {
+    transform: translate(0%, -12%) rotate(-3deg);
+}
+
+.line:hover span:nth-child(19) {
+    transform: translate(0%, 8%) rotate(2deg);
+}
+
+.line:hover span:nth-child(20) {
+    transform: translate(0%, -10%) rotate(-8deg);
+}
+
 #dud:hover img {
     transform: scale(1.1);
 }
