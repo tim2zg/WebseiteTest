@@ -6,7 +6,7 @@ body {
     place-items: center;
 }
 
-@keyframes animationlol {
+@keyframes animation {
     0% {
         color: deeppink;
     }
@@ -51,6 +51,31 @@ h1 {
     text-align: center;
 }
 
+#title:hover {
+    cursor: pointer;
+    animation-name: titleHoverAni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titleHoverAni {
+    0% {
+        outline: white 3px dotted;
+    }
+    25% {
+        outline: deeppink 3px dotted;
+    }
+    50% {
+        outline: yellow 3px dotted;
+    }
+    75% {
+        outline: greenyellow 3px dotted;
+    }
+    100% {
+        outline: deepskyblue 3px dotted;
+    }
+}
+
 #title h1 {
     color: wheat;
 }
@@ -62,7 +87,7 @@ h1 {
 }
 
 .line:hover p {
-    animation-name: animationlol;
+    animation-name: animation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -195,9 +220,19 @@ h6 {
     position: absolute;
     left: 5vh;
     bottom: 5vh;
-    border: wheat 3px dotted;
+    outline: wheat 3px dotted;
     justify-content: flex-start;
     align-items: center;
+}
+
+#box1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 99.5% !important;
+    height: 99% !important;
 }
 
 #box2 {
