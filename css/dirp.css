@@ -80,6 +80,44 @@ h1 {
     color: wheat;
 }
 
+#slide1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#slide1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#count {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+#caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .line {
     display: flex;
     justify-content: space-between;
@@ -220,7 +258,7 @@ h6 {
     position: absolute;
     left: 5vh;
     bottom: 5vh;
-    outline: wheat 3px dotted;
+    outline: wheat 4px double;
     justify-content: flex-start;
     align-items: center;
 }
@@ -241,7 +279,7 @@ h6 {
     position: absolute;
     left: 5vh;
     top: 5vh;
-    border: wheat 3px dotted;
+    border: wheat 4px double;
     justify-content: flex-start;
     align-items: center;
 }
@@ -252,7 +290,7 @@ h6 {
     position: absolute;
     right: 5vh;
     top: 5vh;
-    border: wheat 3px dotted;
+    border: wheat 4px double;
     justify-content: flex-start;
     align-items: center;
 }
