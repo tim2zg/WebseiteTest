@@ -482,3 +482,14 @@ h6 {
 .boxes {
     display: none;
 }
+
+#quellenliste li {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#quellenliste a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

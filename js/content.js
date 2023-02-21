@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     let li = document.createElement("li")
                     let a = document.createElement("a")
 
-                    a.href = quellenListe
-                    a.innerText = quellenListe[i]
+                    a.href = quellenListe[i]
+                    a.innerText = i
 
                     li.appendChild(a)
                     htmlQuellenListe.appendChild(li)
