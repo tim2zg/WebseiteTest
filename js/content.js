@@ -16,10 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add hover event to the spans
     spans.forEach(span => {
         span.addEventListener("mouseover", function() {
-            console.log("Hovered" + span)
-        })
-        span.addEventListener("mouseout", function() {
-            span.classList.remove("hover")
+            console.log("Hovered" + span.id)
         })
     });
 
