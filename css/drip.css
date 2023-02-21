@@ -1,8 +1,6 @@
 body {
     background-color: black;
-    overflow: hidden;
     height: 100vh;
-    display: grid;
     place-items: center;
 }
 
@@ -138,7 +136,10 @@ h1 {
 
 body {
     background-color: black;
-    overflow: hidden;
+}
+
+#mainPageBody {
+    display: grid;
 }
 
 .back {
@@ -332,6 +333,55 @@ h6 {
 
 #box3:hover h2 {
     animation: animation 0.5s linear infinite;
+}
+
+#info {
+    text-align: center;
+    outline: wheat 4px dotted;
+}
+
+#info h1 {
+    font-size: clamp(1px, 8vw, 60px);
+    margin-bottom: 15px;
+}
+
+#info p {
+    font-size: clamp(1px, 8vw, 40px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Dubai, sans-serif;
+}
+
+#data {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+    width: 100vh;
+    text-align: center;
+    outline: wheat 4px dotted;
+    vertical-align: top;
+}
+
+#quellen h1 {
+    font-size: clamp(1px, 8vw, 60px);
+    margin-bottom: 15px;
+}
+
+#live-img {
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+    outline: wheat 4px dotted;
+    width: 49%;
+    float: right;
+}
+
+.side {
+    display: inline-block;
+    width: 49%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 #footer {

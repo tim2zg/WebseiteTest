@@ -12,20 +12,6 @@ function bonkTimer() {
     }
 }
 
-function enhance(id) {
-    // Split the word into letters
-    const word = document.getElementById(id);
-    const letters = word.innerText.split("");
-    // Clear the word
-    word.innerText = "";
-    // Add each letter as a span
-    letters.forEach(letter => {
-        const span = document.createElement("span");
-        span.innerText = letter;
-        span.className = "letter";
-        word.appendChild(span);
-    });
-}
 function toggleCollection() {
     loadFactFile()
     boxes = !boxes
