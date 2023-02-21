@@ -59,7 +59,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 let img = document.getElementById("img")
                 // Set the src of the img element
                 img.src = quellen[id]["image"]
-
+                img.onclick = function() {
+                    window.open(quellen[id]["image"], "_blank")
+                }
             })
         }
     });
