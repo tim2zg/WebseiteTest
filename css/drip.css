@@ -360,21 +360,33 @@ h6 {
     outline: wheat 4px dotted;
     vertical-align: top;
     height: 43vh;
-}
-
-#quellen h1 {
-    font-size: clamp(1px, 8vw, 60px);
-    margin-bottom: 15px;
+    background: black;
 }
 
 #live-img {
     position: sticky;
-    bottom: 20px;
+    bottom: 18px;
     right: 2.55vh;
-    outline: wheat 4px solid;
+    outline: grey 4px double;
     width: 48.8%;
     float: right;
     height: 48vh;
+}
+
+#end {
+    position: sticky;
+    margin-top: 200px;
+    bottom: 0;
+    left: 20%;
+    float: left;
+    z-index: -100;
+}
+
+#end2 {
+    position: absolute;
+    top: 1050px;
+    right: 350px;
+    z-index: -100;
 }
 
 #live-img img {
@@ -388,6 +400,7 @@ h6 {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
+    background-color: black;
 }
 
 #footer {
