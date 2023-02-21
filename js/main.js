@@ -94,5 +94,4 @@ function animateText() { // animate by the way is a repopulated function
         iteration += 1 / 3;
     }, 30);
 
-
 }
