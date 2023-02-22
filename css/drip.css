@@ -378,7 +378,14 @@ h6 {
     width: 49%;
     margin-left: 20px;
     margin-top: 15px;
-    height: 39vh;
+    height: 40vh;
+}
+#home {
+    font-size: 30px;
+    color: wheat;
+    position: fixed;
+    top: 30px;
+    right: 25px;
 }
 
 #quellenTitel {

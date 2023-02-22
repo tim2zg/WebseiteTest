@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{944eb371a4, animejs, zdog}" />
+    <file url="PROJECT" libraries="{944eb371a4, animejs, font-awesome, zdog}" />
   </component>
 </project>
