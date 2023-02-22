@@ -353,14 +353,17 @@ h6 {
 }
 
 #data {
-    position: -webkit-sticky;
     position: sticky;
-    top: 15px;
+    bottom: 15px;
     text-align: center;
     outline: wheat 4px dotted;
     vertical-align: top;
     height: 43vh;
     background: black;
+}
+
+#quellenTitel {
+    margin: 0;
 }
 
 #live-img {
@@ -375,7 +378,7 @@ h6 {
 
 #end {
     position: sticky;
-    margin-top: 200px;
+    margin-top: 150px;
     bottom: 0;
     left: 20%;
     float: left;
@@ -384,7 +387,7 @@ h6 {
 
 #end2 {
     position: absolute;
-    top: 1050px;
+    top: 1350px;
     right: 350px;
     z-index: -100;
 }
