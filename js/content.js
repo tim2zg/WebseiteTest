@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
             span.addEventListener("mouseover", function() {
                 // Get the id of the span
                 let id = span.id
+                // Make the span grey
+                span.style.color = "grey"
                 // Get the quellen Liste with the id
                 let htmlQuellenListe = document.getElementById("quellenliste")
                 // Clear the quellen Liste
@@ -63,6 +65,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     window.open(quellen[id]["image"], "_blank")
                 }
             })
+            span.addEventListener("mouseout", function() {
+                // Make the span black
+                span.style.color = "white"
+            });
         }
     });
 
