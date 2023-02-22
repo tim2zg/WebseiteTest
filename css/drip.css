@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    display: flex;
 }
 
 @keyframes animation {
@@ -144,6 +143,20 @@ body {
 }
 
 .back {
+    position: absolute;
+    font-size: 30px;
+    right: 40px;
+    top: 5px;
+}
+
+#back1 {
+    position: absolute;
+    font-size: 30px;
+    right: 40px;
+    top: 5px;
+}
+
+#back2 {
     position: absolute;
     font-size: 30px;
     right: 40px;
@@ -342,6 +355,7 @@ h6 {
     width: 49%;
     margin-left: 5px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #info h1 {
@@ -372,13 +386,18 @@ h6 {
 }
 
 #live-img {
-    position: sticky;
-    bottom: 18px;
-    right: 2.55vh;
-    outline: grey 4px double;
-    width: 48.8%;
-    float: right;
-    height: 48vh;
+    width: 48.6%;
+    position: fixed;
+    bottom: 10px;
+    right: 12.5px;
+    margin-bottom: 15px;
+    height: 50vh;
+    outline: wheat 4px dotted;
+}
+
+#img {
+    width: 100%;
+    height: auto;
 }
 
 #end {
