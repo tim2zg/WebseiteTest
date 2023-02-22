@@ -340,7 +340,7 @@ h6 {
     text-align: center;
     outline: wheat 4px dotted;
     width: 49%;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 15px;
 }
 
@@ -358,12 +358,13 @@ h6 {
 
 #data {
     position: sticky;
-    bottom: 0;
+    top: 20px;
     text-align: center;
     outline: wheat 4px dotted;
     width: 49%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 15px;
+    height: 39vh;
 }
 
 #quellenTitel {

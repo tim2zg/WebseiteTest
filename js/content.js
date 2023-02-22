@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
             span.addEventListener("mouseover", function() {
                 // Get the id of the span
                 let id = span.id
-                // Make the span grey
-                span.style.color = "grey"
+                // Make the span wheat
+                span.style.color = "wheat"
                 // Get the quellen Liste with the id
                 let htmlQuellenListe = document.getElementById("quellenliste")
                 // Clear the quellen Liste
