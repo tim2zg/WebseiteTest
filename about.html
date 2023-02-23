@@ -6,28 +6,24 @@
     <meta content-type="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/aboutDrip.css" content-type="text/css">
+    <script src="/js/about.js" content-type="text/js"></script>
+
 </head>
 <body>
 
 <h1>Tom & Martin LLC Limited</h1>
 
-<h2>Inspiriert von:</h2>
+<div id="inspirations">
+    <h2>Inspiriert von:</h2>
 
-<ul>
-    <li><a href="https://codepen.io/sfi0zy/pen/rNZebrE">Codepen: Eye</a></li>
-    <li><a href="https://codepen.io/Colt4D5/pen/YzOXdWE">Codepen: Radical Pipes!</a></li>
-    <li>Copilot & Stackoverflow</li>
-    <li>SVG and das GIF sind 100% self made</li>
-    <li>Und die Videos unten</li>
-</ul>
+    <ul>
+        <li><a href="https://codepen.io/sfi0zy/pen/rNZebrE">Codepen: Eye</a></li>
+        <li>Copilot & Stackoverflow</li>
+        <li>SVG and das GIF sind 100% self made</li>
+        <li>Und die Videos unten</li>
+    </ul>
 
-<center>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/owpaafxvkjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
-
-<center>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W5oawMJaXbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+</div>
 
 <svg viewBox="-20 -20 240 240">
     <g stroke='#000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='0.5'>
@@ -119,6 +115,48 @@
         </g>
     </g>
 </svg>
+
+<h3>Tic Tac Tow, weil es noch eine Tabelle braucht.</h3>
+<p id="ttt"></p>
+<table>
+    <tr>
+        <td id="1" onclick="toggleAField(1)">-</td>
+        <td id="2" onclick="toggleAField(2)">-</td>
+        <td id="3" onclick="toggleAField(3)">-</td>
+    </tr>
+    <tr>
+        <td id="4" onclick="toggleAField(4)">-</td>
+        <td id="5" onclick="toggleAField(5)">-</td>
+        <td id="6" onclick="toggleAField(6)">-</td>
+    </tr>
+    <tr>
+        <td id="7" onclick="toggleAField(7)">-</td>
+        <td id="8" onclick="toggleAField(8)">-</td>
+        <td id="9" onclick="toggleAField(9)">-</td>
+    </tr>
+</table>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/owpaafxvkjU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W5oawMJaXbU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+<div id="formula">
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value="Martin"><br>
+        <label for="score">Score 0/10:</label><br>
+        <input type="number" id="score" name="score" value="8"><br><br>
+        <input type="submit" value="Absenden">
+    </form>
+</div>
+
+<div id="footer">
+    <p>© 2023 Tom & Martin LLC Limited</p>
+</div>
 
 </body>
 </html>
