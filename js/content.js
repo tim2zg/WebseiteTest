@@ -1,5 +1,4 @@
 // On document ready without jQuery
-
 let quellen = null;
 document.addEventListener("DOMContentLoaded", function() {
     // Load quellen file from server it has the same name as the html file
