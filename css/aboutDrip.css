@@ -1,0 +1,32 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    overflow: hidden;
+    background-image:
+            linear-gradient(
+                    45deg,
+                    hsl(101deg 85% 45%) 0%,
+                    hsl(90deg 100% 42%) 21%,
+                    hsl(85deg 100% 43%) 30%,
+                    hsl(80deg 100% 43%) 39%,
+                    hsl(75deg 100% 44%) 46%,
+                    hsl(71deg 100% 44%) 54%,
+                    hsl(66deg 100% 45%) 61%,
+                    hsl(62deg 100% 45%) 69%,
+                    hsl(58deg 100% 47%) 79%,
+                    hsl(55deg 100% 50%) 100%
+            );
+}
+
+svg {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 50vmin;
+    width: 50vmin;
+}
