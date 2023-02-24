@@ -156,3 +156,12 @@ input {
     text-align: center;
     font-family: Dubai, sans-serif;
 }
+
+.back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2em;
+    font-weight: 1000;
+    z-index: 1;
+}
