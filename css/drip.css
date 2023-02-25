@@ -99,7 +99,7 @@ h1 {
     position: absolute;
     top: 10px;
     left: 10px;
-    color: black;
+    color: white;
     font-size: 25px;
 }
 
@@ -147,6 +147,7 @@ body {
     font-size: 30px;
     right: 40px;
     top: 5px;
+    color: white;
 }
 
 #back1 {
@@ -168,6 +169,7 @@ body {
     font-size: 30px;
     right: 10px;
     top: 5px;
+    color: white;
 }
 
 .goOn, .back {
