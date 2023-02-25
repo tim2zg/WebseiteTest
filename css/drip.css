@@ -200,13 +200,20 @@ body {
 
 #box3 {
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box3 a {
+    color: white;
+    font-family: "Bauhaus 93", sans-serif;
+    font-size:  clamp(1px, 8vw, 15px);
 }
 
 #facts {
     color: white;
     font-family: "Bauhaus 93", sans-serif;
     font-size:  clamp(1px, 8vw, 50px);
-    margin: 0;
     overflow: hidden;
 }
 
@@ -214,8 +221,7 @@ body {
     color: white;
     font-family: "Bauhaus 93", sans-serif;
     font-size:  clamp(1px, 8vw, 40px);
-    margin: 0;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
