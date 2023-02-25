@@ -1,19 +1,25 @@
 let bonk = false
 let boxes = false
 let currentSlide = 0
-let facts = []
+let facts = [
+    "Die Yoruba stammen vom Odua ab.",
+    "Die meisten Yoruba leben in Nigeria.",
+    "Die Yoruba sind eine der größten Ethnien in Afrika.",
+    "Ungefähr 20% der Yoruba leben immer noch ihren traditionellen Glauben.",
+    "Die Yoruba haben die höchste Rate an Zwillingsgeburten in Afrika.",
+    "75% der Yoruba sind Bauern."
+]
 const possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ/%&$#";
 let interval = null;
 
 function bonkTimer() {
     if (bonk) {
-        let audio = new Audio('/assets/Bonkt.mp3')
+        let audio = new Audio('assets/Bonkt.mp3')
         audio.play()
     }
 }
 
 function toggleCollection() {
-    loadFactFile()
     boxes = !boxes
     if (boxes) {
         const title = document.getElementById("title")
@@ -56,17 +62,6 @@ function previousSlide() {
         slides[i].style.display = "none"
     }
     slides[currentSlide -1].style.display = "unset"
-}
-
-function loadFactFile() {
-    console.log("Loading facts")
-    // Load the fact json file from the server
-    fetch("/assets/facts.json")
-        .then(response => response.json())
-        .then(data => {
-            facts = data
-            console.log(facts)
-        });
 }
 
 function animateText() { // animate by the way is a repopulated function

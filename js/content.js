@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let path = window.location.pathname;
     let page = path.split("/").pop();
     let filename = page.split(".")[0];
-    fetch("/assets/" + filename + ".json")
+    fetch("https://raw.githubusercontent.com/tim2zg/WebseiteTest/master/assets/" + filename + ".json")
         .then(response => response.json())
         .then(data => {
             quellen = data
