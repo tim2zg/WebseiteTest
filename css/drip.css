@@ -410,11 +410,6 @@ h6 {
     outline: wheat 4px dotted;
 }
 
-#img {
-    width: 100%;
-    height: auto;
-}
-
 #end {
     position: sticky;
     margin-top: 150px;
@@ -432,8 +427,10 @@ h6 {
 }
 
 #live-img img {
-    width: 100%;
     height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footer {
